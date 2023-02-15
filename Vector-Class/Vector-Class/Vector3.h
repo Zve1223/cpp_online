@@ -265,7 +265,7 @@ Vector3 Vector3::Reflect(Vector3 v, Vector3 plane)
 
 Vector3 Vector3::RotateTowards(Vector3 a, Vector3 b, float maxRad, float maxMag)
 {
-
+	return Vector3();
 }
 
 float Vector3::SignedAngle(Vector3 a, Vector3 b, Vector3 axis)
